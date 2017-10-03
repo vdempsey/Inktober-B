@@ -14,17 +14,23 @@ h3, h1, h4, h2 {
 }
 
 #mediabuttons {
-  text-align: center;
+  text-align: left;
+  padding-top: 15px;
+}
+#prompts li {
+  list-style: decimal;
+  padding-bottom: 10px;
 }
 
 img.social {
-  width: 40px;
+  width: 35px;
 }
 
 a {
   color: #e2665a;
 }
 h4 {
+  font-size: 28px;
   text-align: center;
 }
 
@@ -32,6 +38,13 @@ h1 {
   font-size: 100px;
   text-align: center;
   color: #000000;
+}
+
+h2 {
+  font-size: 70px;
+}
+h3 {
+  font-size: 60px;
 }
 
 .parallax-container {
@@ -64,13 +77,14 @@ h1 {
 }*/
 
 
-#rules, #prompts {
-  width: 60%;
+ #prompts {
+  width: 40%;
   float: left;
-  background-color: #fff;
   padding: 25px;
+  padding-left: 40px;
   margin-bottom: 20px;
-  border-radius: 25px;
+  font-size: 16px;
+
 }
 
 #toc {
@@ -84,7 +98,8 @@ h1 {
   background-color: black;
   padding: 50px;
   float: left;
-  text-align: center; 
+  text-align: center;
+  margin-top: 30px;
 }
 #pod h2 {
   color: #fff;
@@ -95,8 +110,28 @@ h1 {
   background-color: #fff;
   padding: 25px;
   margin-bottom: 20px;
-  border-radius: 25px;
+}
 
+#tips {
+  padding-top: 0px;
+}
+
+#rules {
+  width: 60%;
+  float: right;
+  padding: 25px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  background-image: url("../img/inksplotch.jpg");
+  background-size: 65%;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+#rules ol li {
+  list-style-type: circle;
+  padding-bottom: 12px;
+  margin-left: 30px;
 }
 
 #inktoberpic {
@@ -115,7 +150,7 @@ h1 {
 
 #tips ul li {
   list-style-type: circle;
-  padding-bottom: 15px;
+  padding-bottom: 12px;
   margin-left: 30px;
 }
 
@@ -132,6 +167,20 @@ footer {
 
 #toc li {
   display: inline;
+}
+
+
+.table-of-contents a {
+  font-weight: normal;
+  border-left: none;
+}
+
+.table-of-contents a:hover {
+  border-left: none;
+}
+
+.table-of-contents a:visited {
+  border-left: none;
 }
 /*#pen {
   filter: invert(100%);
